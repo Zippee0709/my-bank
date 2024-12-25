@@ -12,7 +12,7 @@ const SiteHeader = () => {
         <Icons.Logo className="h-6 w-6 mr-2" />
         <h1 className="text-lg font-semibold">MyBank</h1>
       </Link>
-      <Button variant="ghost" size="icon" className="bg-[#CAFF33]">
+      <Button variant="ghost" size="icon" className="bg-green-60">
         <Icons.Menu className="h-6 w-6" stroke="#000" />
       </Button>
     </header>

@@ -11,6 +11,7 @@ const Layout = ({ children }: LayoutProps) => {
   return (
     <div className="relative flex flex-col min-h-screen">
       <SiteHeader />
+      {children}
     </div>
   )
 }
